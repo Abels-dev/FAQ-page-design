@@ -78,12 +78,12 @@ article p {
    justify-content: space-between;
    align-items: center;
 }
-h3 {
+h2{
    color: hsl(292, 42%, 14%);
    font-weight: 700;
    font-size: 1.1rem;
 }
-h3:hover,h3:focus{
+h2:hover,h2:focus{
    color: hsl(300, 73%, 34%,80%);
 }
 footer {
