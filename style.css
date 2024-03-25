@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+
+   min-height: 100vh;
+   font-family: "Work Sans", sans-serif;
+   display: flex;
+   flex-direction: column;
+   background-color: hsl(275, 100%, 97%);
+}
+header {
+   padding: 8rem;
+   background: url("assets/images/background-pattern-desktop.svg");
+}
+main {
+   position: relative;
+   min-height: 100vh;
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+section {
+   position: absolute;
+   top: -130px;
+   background-color: hsl(0, 0%, 100%);
+   border-radius: 15px;
+   box-shadow: 0px 0px 5px grey;
+   width: 100%;
+   max-width: 600px;
+   padding: 1rem;
+   margin-top: 20px;
+   z-index: 99;
+}
+.faq {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   margin-bottom: 30px;
+   margin-top: 20px;
+   margin-left: 20px;
+
+}
+.faq img {
+   width: 30px;
+   height: auto;
+}
+.faq h1 {
+   font-size: 2.5rem;
+   color: #1b1b1b;
+   font-weight: 700;
+}
+img {
+   width: 30px;
+   height: auto;
+}
+article {
+   padding: 1rem;
+   margin-bottom: 10px;
+   border-top: 2px solid hsl(275, 100%, 97%);
+}
+article p {
+   display: none;
+   font-weight: 400;
+   color: hsl(292, 16%, 49%);
+   margin-top: 20px;
+   font-size: 16px;
+}
+.show {
+   display: block;
+}
+.questions {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+h3 {
+   color: hsl(292, 42%, 14%);
+   font-weight: 700;
+   font-size: 1.1rem;
+}
+h3:hover,h3:focus{
+   color: hsl(300, 73%, 34%,80%);
+}
+footer {
+   position: sticky;
+   bottom: 0;
+   padding: 1rem;
+   text-align: center;
+}
+@media screen  and (max-width:475px){
+  header{
+   background: url('assets/images/background-pattern-mobile.svg');
+  }
+  main{
+   width: 100%;
+   min-height: 100%;
+  }
+  section{
+   max-width: 85%;
+  }
+
+}
