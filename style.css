@@ -81,7 +81,7 @@ article p {
 h2{
    color: hsl(292, 42%, 14%);
    font-weight: 700;
-   font-size: 1.1rem;
+   font-size: 1rem;
 }
 h2:hover,h2:focus{
    color: hsl(300, 73%, 34%,80%);
